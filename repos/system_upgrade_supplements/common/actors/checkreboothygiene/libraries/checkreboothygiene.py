@@ -16,6 +16,7 @@ FMT_LIST_SEPARATOR = "\n    - "
 
 def check_excessive_uptime():
     uptime_seconds = _get_uptime()
+    # test comment
 
     if uptime_seconds > EXCESSIVE_UPTIME_LIMIT_SECONDS:
         summary = (
